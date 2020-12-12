@@ -1,0 +1,22 @@
+--v0.8,
+added near clip plane slider, allowing you to view smaller things closer without them clipping out of camera view,
+added setting to change pivot color (change line 51)
+--v0.7,
+orthographic camera is finally (mostly) viable!
+fixed strange visual artifacts in ortho mode,
+fixed cursor acting weird in ortho mode,
+going to one of the six perpendicular viewing planes now keeps your offset from the vehicle instead of moving you to a set distance
+--v0.6,
+changed MB4 to set pivot to cursor location instead of selection, it is much more intuitive,
+changing navigation styles now uses a drop down menu instead of a cycling button,
+fixed camera being messed up if leaving builder in zoomed out orthographic camera
+--v0.5,
+you can now set pivot to selection or origin with the press of a physical button instead of a ui button! (default MB4 and MB5),
+movement functions now disabled when in escape menu/settings,
+pivot is set to origin when new project is loaded
+--v0.41,
+movement functions are now disabled in tuner so you don't move both in tuner and out
+--v0.4,
+fixed pivot being set to world origin (very very far away) when shape tool objects were selected
+--v0.3
+added beta orthographic camera
